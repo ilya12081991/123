@@ -1,0 +1,280 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+
+
+body {
+    background-color: #e8e8e8;
+}
+
+.header {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.86;
+    letter-spacing: 2.8px;
+    text-align: left;
+    color: #000;
+    
+    text-transform: uppercase;
+
+      
+}
+
+.list li {
+    background-image: url(../img/img.png);
+    background-repeat: no-repeat;
+    background-size: 25px 19px;
+    padding-left: 35px;
+    background-position: 1px 7px;
+}
+
+.list li:nth-child(1) {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #273d46;
+    text-decoration: line-through;
+}
+.list li:nth-child(2) {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgb(39, 61, 70);
+}
+
+.list li:nth-child(3){
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #273d46;
+}
+
+.list li:nth-child(4){
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #273d46;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    
+}
+
+.block {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    margin-top: 60px;
+}
+
+
+.listsecond li{
+    background-image: url(../img/img.png);
+    background-repeat: no-repeat;
+    background-size: 25px 19px;
+    padding-left: 35px;
+    background-position: 1px 7px;
+    
+}
+
+.listsecond li:nth-child(1){
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #273d46;
+}
+
+.listsecond li:nth-child(2){
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #273d46;
+}
+
+.listsecond li:nth-child(2):hover{
+    color: #d55a5a;
+}
+
+.listsecond li:nth-child(3){
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #273d46;
+}
+
+.listsecond li:nth-child(4){
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+    text-align: left;
+    color: #273d46;
+    margin-bottom: 100px;
+}
+
+.button{
+    margin-left: 460px;
+}
+
+.fullstory {
+    display: inline-block;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(128, 183, 179, 0.54);
+    box-shadow: 0px 5px 1px rgba(0, 0, 0 , 0.5);
+    line-height: 38px;
+    border-radius: 30px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 2.86;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    color: #fff;    
+}
+
+
+
+.fullstory span{
+    background-image: url(../img/shape-2.svg);
+    background-repeat: no-repeat; 
+    background-position: right; 
+    padding-right: 30px; 
+}
+
+.fullstory:active{
+    position: relative;
+    top: 3px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0 , 0.5);
+}
+
+.fullstory2 {
+    display: inline-block;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(128, 183, 179, 0.54);
+    box-shadow: 0px 6px 40px 0 rgba(128, 183, 179, 0.54);
+    line-height: 38px;
+    border-radius: 30px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 2.86;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    color: #fff; 
+    margin-left: 100px;
+}
+.fullstory2 span{
+    background-image: url(../img/shape-2.svg);
+    background-repeat: no-repeat; 
+    background-position: right; 
+    padding-right: 30px; 
+
+}
+
+.fullstory2:hover{
+    background-color: #3a5856;
+}
+
+.fullstory3 {
+    display: inline-block;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(128, 183, 179, 0.54);
+    box-shadow: 0px 6px 40px 0 rgba(128, 183, 179, 0.54);
+    line-height: 38px;
+    border-radius: 30px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 2.86;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    color: #fff; 
+    margin-left: 100px;
+}
+
+.fullstory3:active{
+    background-color: #818181;
+}
+
+.fullstory3 span {
+    background-image: url(../img/shape-2.svg);
+    background-repeat: no-repeat; 
+    background-position: right; 
+    padding-right: 30px;
+}
+
+
+.textinput{
+    border: solid 1px #b0b0b0;
+    margin-left: 460px;
+    height: 50px;
+    width: 292px;
+}
+  
+.textinput2{
+    height: 50px;
+    width: 292px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.textinput2:focus{
+    box-shadow: 0 0 20px 0 rgba(127, 190, 213, 0.93);
+    
+}
+
